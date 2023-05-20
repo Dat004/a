@@ -1,0 +1,112 @@
+@media(min-width: 0) and (max-width: 46.1875em) {
+    .container .sec {
+        padding: 0 1.5rem;
+    }
+    
+    .container .sec_1 .header_con {
+        grid-template-columns: 1fr;
+    }
+
+    .header_con .header_left {
+        padding: 1rem 0 0;
+    }
+
+    .header_right {
+        padding: 0.5rem 0 2rem;
+    }
+
+    .header_right .content {
+        margin-bottom: 4rem;
+    }
+
+    .h-shape {
+        display: none;
+    }
+
+    .container .controls {
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        background-color: var(--color-grey-5);
+        z-index: 1000;
+    }
+
+    .container .controls .control {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .container .sec_2 .information {
+        width: 100%;
+    }
+
+    .information .notify {
+        grid-template-columns: 1fr;
+    }
+
+    .information .time_line {
+        padding: 1.5rem;
+    }
+
+    .skill .my_skill {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .time_line .my_time {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .text_intro .title h3 {
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    .text_intro .title p {
+        display: none;
+    }
+
+    .container .sec_3 .works {
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-bottom: 6.5rem;
+    }
+
+    .container .sec_4 .my_blogs {
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-bottom: 6.5rem;
+    
+    }
+
+    .container .sec_5 .my_cont {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .contact_left .connect {
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .contact_right{
+        margin-bottom: 6.5rem;
+    }
+
+    .contact_left {
+        margin: 0;
+    }
+
+    .contact_right .field_info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width: 46.1875em) and (max-width: 64em) {
+
+}
